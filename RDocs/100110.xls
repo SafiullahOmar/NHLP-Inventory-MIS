@@ -1,0 +1,950 @@
+<style>
+.tableHeader{width:100px; background-color:darkorange;font-size:16px;font-weight: bold; text-transform: capitalize; border:1px solid black;word-wrap: break-word;}
+.tableCell{background-color: #FFFFFF; text-align:center;Vertical-align:middle;;word-wrap: break-word;font-size:0.7em}.title{ font-size: 1.2em;  font-weight: bold;text-align:center;  color: #000000;  font-style: normal;  font-variant: normal; border:0px solid white;   text-transform: capitalize;  background-color: #FFFFff;}
+.tableCellGeneral{background-color: #ffc000; text-align:left;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px solid black;}.tableCellProcurementCol{background-color: #d8e4bc; text-align:center;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px solid black;}
+.tableCellProgram{background-color: #b7dee8; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+.BudgettableHeader{width:100px; background-color:wheat;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px thin red;word-wrap: break-word;}
+.BudgettableCellGeneral{background-color: #da9694;height:30px; text-align:center;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px thin gray;}
+.BudgettableCellProgram{background-color: #92d050;height:26px; text-align:center;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px thin gray;}
+.tableTitle{height:25px; text-align:center;word-wrap: break-word;font-size:19px;font-weight: bold; text-transform: capitalize;}
+
+.ProjectListtableHeader{width:100px; background-color: #fffff;font-size:16px;font-weight: bold; text-transform: capitalize; border:1px solid black;word-wrap: break-word;}
+.ProjectListtableCellGeneral{background-color: #ffc000; text-align:left;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px solid black;}
+.ProjectListWorkCell{background-color: #ffdbb1; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+.ProjectListGoodsCell{background-color: #cde4ef; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+.ProjectListServiceCell{background-color: #f0e68e; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+.ProjectListCell{background-color: #ffffff; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+
+.ProjectPaymentCostListtableHeader{width:100px; background-color: #688a8b;font-size:16px; color:white;font-weight: bold; text-transform: capitalize; border:1px solid black;word-wrap: break-word;}
+.Report6tableCellGeneral{background-color: #f5bcb7; text-align:left;word-wrap: break-word;font-size:13px;color:black;font-weight: bold; text-transform: capitalize; border:1px solid black;}
+
+.DonorTableHeader{width:100px; background-color: #cde4ef;font-size:16px;font-weight: bold; text-transform: capitalize;word-wrap: break-word;}
+</style><span style="direction:ltr;"><table width="100" border="0" style="direction:ltr;">
+	<tr>
+		<td class="tableTitle" colspan="5" style="text-align:center;vertical-align:middle;">MAIL</td>
+	</tr>
+	<tr>
+		<td class="tableTitle" colspan="5" style="text-align:center;vertical-align:middle;">National Horticulture & Livestock Project</td>
+	</tr>
+	<tr>
+		<td class="tableTitle" colspan="5" style="text-align:center;vertical-align:middle;">Provincial Establishment Report</td>
+	</tr>
+</table>
+<table width="100" border="1" bordercolor="black" style="direction:ltr;">
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Logar</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="9" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Almond</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">178</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">11748</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">608.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">40161</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">103.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6831</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Cherry</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">35</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1575</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">18</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5994</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">7240</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">29.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1947</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">45.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3640</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Walnut</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">43</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1935</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="3" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">7</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2676</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">999</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1300</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">130</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">1165.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">86176</td>
+	</tr>
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Ghazni</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="6" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Almond</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">191</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">12606</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3462</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">228492</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">324</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">21384</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">356</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">28480</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">71</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4686</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">130</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10400</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">7</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2331</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="4" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">60</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3960</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">16</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1280</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">12</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">960</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">4629</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">314589</td>
+	</tr>
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Paktia</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="11" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Almond</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">28</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1848</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1072</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">71214</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">61</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4026</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Cherry</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">9</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">405</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1998</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">43</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3440</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">95</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6270</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Persimmon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">18</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1188</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">46</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3680</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pomegranate</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">31</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6882</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Walnut</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">304</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">13680</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="3" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">17</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4758</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">666</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">480</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="5" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">28</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1848</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">264</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">16.3</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1296</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">80</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pomegranate</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">1785.3</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">124023</td>
+	</tr>
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Badakhshan</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="10" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">603</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">39798</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">82.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5445</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Cherry</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">23</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1035</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">12</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3996</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">18</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1440</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">38</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2508</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Persimmon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">35</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2310</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">360</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pomegranate</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">8</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1776</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Walnut</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">84</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3780</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="2" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">29</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3944</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1665</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">18</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1440</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">960</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">69497</td>
+	</tr>
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Takhar</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="10" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Almond</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">29</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1914</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">338.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">22341</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">69</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4554</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Cherry</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">59</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2655</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">78</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">25974</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">64.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5160</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">86.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5709</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Persimmon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">22.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1485</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">13.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1080</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Walnut</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">55</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2475</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="2" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">15.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1937.5</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">20</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6660</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">17</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1360</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">868</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">83304.5</td>
+	</tr>
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Baghlan</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="11" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Almond</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">94</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6204</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">263.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">17391</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">172.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">11385</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Cherry</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">57</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2565</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">30</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">9990</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">74.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5962</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">162</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10692</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Persimmon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">48</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3168</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">47.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3800</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pomegranate</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">22.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4995</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Walnut</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">86</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3870</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="3" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">16</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2319</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1332</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">125</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">20</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1600</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">1098.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">85398</td>
+	</tr>
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Kunduz</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="9" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Almond</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">35</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2310</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">51</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3366</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">93</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6138</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Cherry</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">157.5</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">28.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">9490.5</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">108.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">8680</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">73.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4851</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Persimmon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">70</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4620</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">31.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2520</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="2" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">22</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">7326</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">125</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">22</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1760</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">539.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">51344</td>
+	</tr>
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Paktika</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="9" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Almond</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">27</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1782</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1326.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">87549</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">249</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">16434</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Cherry</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">243</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10935</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">16817</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">182</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">14560</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">214</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">14124</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">86</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6880</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Walnut</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">114</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5130</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="2" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">650</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1300</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="3" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Grape</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">8.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2831</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">14</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1220</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">2517.5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">180212</td>
+	</tr>
+	<tr>
+		<td class="tableHeader" colspan="2" style="text-align:center;vertical-align:middle;">Province :</td>
+		<td class="tableHeader" colspan="3" style="text-align:center;vertical-align:middle;">Khost</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Orchard Type</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">S.No</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Fruit</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Area</td>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">Sappling Area</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="10" style="text-align:center;vertical-align:middle;">New Orchard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Almond</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">14</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">924</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">47</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3102</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apricot</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">69</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4554</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Cherry</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">28</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2240</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pear</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">132</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Persimmon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">262</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">17292</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">118</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">9440</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Pomegranate</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">52</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">11544</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Walnut</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2250</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="1" style="text-align:center;vertical-align:middle;">HD/MD Density</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2400</td>
+	</tr>
+	<tr>
+		<td class="tableCellProgram" rowspan="3" style="text-align:center;vertical-align:middle;">plantation</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Apple</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">330</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peach</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">400</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Plum</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">26</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2080</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="3">Total By Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">685</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">56778</td>
+	</tr>
+</table>
+</span>

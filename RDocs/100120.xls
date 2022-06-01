@@ -1,0 +1,2482 @@
+<style>
+.tableHeader{width:100px; background-color:darkorange;font-size:16px;font-weight: bold; text-transform: capitalize; border:1px solid black;word-wrap: break-word;}
+.tableCell{background-color: #FFFFFF; text-align:center;Vertical-align:middle;;word-wrap: break-word;font-size:0.7em}.title{ font-size: 1.2em;  font-weight: bold;text-align:center;  color: #000000;  font-style: normal;  font-variant: normal; border:0px solid white;   text-transform: capitalize;  background-color: #FFFFff;}
+.tableCellGeneral{background-color: #ffc000; text-align:left;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px solid black;}.tableCellProcurementCol{background-color: #d8e4bc; text-align:center;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px solid black;}
+.tableCellProgram{background-color: #b7dee8; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+.BudgettableHeader{width:100px; background-color:wheat;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px thin red;word-wrap: break-word;}
+.BudgettableCellGeneral{background-color: #da9694;height:30px; text-align:center;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px thin gray;}
+.BudgettableCellProgram{background-color: #92d050;height:26px; text-align:center;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px thin gray;}
+.tableTitle{height:25px; text-align:center;word-wrap: break-word;font-size:19px;font-weight: bold; text-transform: capitalize;}
+
+.ProjectListtableHeader{width:100px; background-color: #fffff;font-size:16px;font-weight: bold; text-transform: capitalize; border:1px solid black;word-wrap: break-word;}
+.ProjectListtableCellGeneral{background-color: #ffc000; text-align:left;word-wrap: break-word;font-size:13px;font-weight: bold; text-transform: capitalize; border:1px solid black;}
+.ProjectListWorkCell{background-color: #ffdbb1; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+.ProjectListGoodsCell{background-color: #cde4ef; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+.ProjectListServiceCell{background-color: #f0e68e; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+.ProjectListCell{background-color: #ffffff; text-align:center;word-wrap: break-word;font-weight: bold; font-size:13px;}
+
+.ProjectPaymentCostListtableHeader{width:100px; background-color: #688a8b;font-size:16px; color:white;font-weight: bold; text-transform: capitalize; border:1px solid black;word-wrap: break-word;}
+.Report6tableCellGeneral{background-color: #f5bcb7; text-align:left;word-wrap: break-word;font-size:13px;color:black;font-weight: bold; text-transform: capitalize; border:1px solid black;}
+
+.DonorTableHeader{width:100px; background-color: #cde4ef;font-size:16px;font-weight: bold; text-transform: capitalize;word-wrap: break-word;}
+</style><span style="direction:ltr;"><table width="100" border="0" style="direction:ltr;">
+	<tr>
+		<td class="tableTitle" colspan="6" style="text-align:center;vertical-align:middle;">MAIL</td>
+	</tr>
+	<tr>
+		<td class="tableTitle" colspan="6" style="text-align:center;vertical-align:middle;">National Horticulture & Livestock Project</td>
+	</tr>
+	<tr>
+		<td class="tableTitle" colspan="6" style="text-align:center;vertical-align:middle;">Extension Workers Farmer Contribution (Collectable & Paid Amount) By Province</td>
+	</tr>
+</table>
+<table width="100" border="1" bordercolor="black" style="direction:ltr;">
+	<tr>
+		<td class="tableHeader" rowspan="2" style="text-align:center;vertical-align:middle;">S.NO</td>
+		<td class="tableHeader" rowspan="2" style="text-align:center;vertical-align:middle;">Province</td>
+		<td class="tableHeader" rowspan="2" style="text-align:center;vertical-align:middle;">Extension Worker</td>
+		<td class="tableHeader" rowspan="2" style="text-align:center;vertical-align:middle;">Father Name</td>
+		<td class="tableHeader" rowspan="2" style="text-align:center;vertical-align:middle;">Collectable Amount</td>
+		<td class="tableHeader" rowspan="2" style="text-align:center;vertical-align:middle;">Recieved Amount</td>
+		<td class="tableHeader" rowspan="2" style="text-align:center;vertical-align:middle;">Balance</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Stori</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohd Bahram</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">134600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">134600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haroon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sahib zad gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">14000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">14000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khesraw</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Masil khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">299725.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">299725.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">4</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Store</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohd Bahram</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Javed Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mangal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">94650.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">94650.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">6</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haroon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sahib Zad gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">62300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">62300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">7</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Javed Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mangal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">58450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">58450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">8</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Javed Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mangal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">94525.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">94525.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">9</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khisraw</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mahsil khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">109500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">109500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohd Haroon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sahib Zad Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">80900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">80900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">11</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shah Mahmood</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Akhtar Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">131725.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">131725.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">12</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kamran</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Payenda khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">92250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">92250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">13</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haroon</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sahib Zad Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">7500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">7500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">14</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Baqi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Halim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">107700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">107700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">15</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Suhaib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Rauf</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">47750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">47750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">16</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Murtaza</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Hamza</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">21300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">21300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">17</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zaidullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khairullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">22900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">22900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">18</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Najibullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Amanuddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">206150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">206150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">19</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Suhaib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Rauf</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">113900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">113900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">20</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zaidullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khairullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">356600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">356600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">21</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jamshid </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohamad kazem</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">307450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">307450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">22</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Murtaza</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Hamza</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">129300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">129300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">23</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Farhad </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Anwar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">95300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">95300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">24</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badakhshan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Mudaseer </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Mudabeer</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">553400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">553400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">25</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Dayan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Rabani</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">111450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">111450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">26</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ehsanullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Karim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">41000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">41000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">27</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Talib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Taza Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">192200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">192200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">28</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Atiqullah Farzad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Eddi Mohd</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">63500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">63500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">29</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ehsanullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Karim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">79150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">79150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">30</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jaweed Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Rajab Mohammad </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">309600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">300100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">9500.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">31</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Ibrahim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Tash Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">104000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">104000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">32</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jan Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Sharif</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">145350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">145350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">33</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zulmai</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Saheb Nazar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">188250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">188250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">34</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ahmad Shoaib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Jamil</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">280100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">280100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">35</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Monir Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Fakhruddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">363100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">363100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">36</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Barhanuddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jalal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">324900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">324900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">37</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Takhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Nasir </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Sami</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">38</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Barzo</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Zaman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">217750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">217750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">39</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Alam</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hashim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">298600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">298600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">40</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Shakir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Zaheer </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">142400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">142400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">41</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Ghafar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Zaheer</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">253650.50</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">253650.50</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">42</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gull Baz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Zahir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">143250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">143250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">43</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Osman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Rehman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">44</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Ali</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Majed</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">202300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">202300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">45</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Raziq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hanan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">95600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">95600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">46</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Azim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sultan Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">159250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">159250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">47</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Alawuddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Omaruddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">119100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">119100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">48</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Osman	</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Rehman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">118500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">118500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">49</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Namatullah </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ali Murad </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">308700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">308700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gull Baz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Zahir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">304800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">304800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">51</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baghlan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jan Agha</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mira Jan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">69200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">69200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">52</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunduz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Ghias</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor Mohammad </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">53</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunduz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Nasim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Yasin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">34000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">34000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">54</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunduz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Rafiullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Jabar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">255050.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">255050.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">55</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunduz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohibullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Araab Nawaz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">349100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">349100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">56</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunduz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Abdul Hakim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">342802.25</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">342802.25</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">57</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunduz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammadullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Momin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">58</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kunduz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Sami </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Ahad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">189800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">189800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">59</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samangan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Jafar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">134900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">134900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">60</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samangan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Motahar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">214300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">214300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">61</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samangan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Salam</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">212600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">212600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">62</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samangan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Naqibullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">177575.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">177575.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">63</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samangan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Kamil</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">135350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">135350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">64</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samangan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Yousof</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">322350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">322350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">65</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samangan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ekramuddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3571928.70</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">536700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">3035228.70</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">66</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samangan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1544550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1544550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">67</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nezamuddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">417150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">417150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">68</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hasibullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">100975.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">100975.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">69</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Sakhi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">241550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">241550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">70</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hamed</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">131750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">102700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">29050.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">71</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Basir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">151225.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">151225.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">72</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Rahim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">161850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">161850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">73</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mehr Del</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">39125.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">39125.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">74</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Ahad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">298275.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">298275.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">75</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jan Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">703650.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">703650.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">76</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Ghafar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">282855.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">282855.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">77</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Tawfiq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">399825.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">399825.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">78</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Farid Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">123750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">123750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">79</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haq Nazar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Qurban Nazar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">301550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">301550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">80</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Balkh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">437250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">437250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">81</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Aq Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">676790.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">676790.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">82</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hossain</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">112250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">112250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">83</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Emamuddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">221865.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">221865.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">84</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Mokhtar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">216450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">216450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">85</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hosain</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">123725.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">123725.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">86</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khudaye Nazar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">111875.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">111875.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">87</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Besmeullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">256300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">256300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">88</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khudaye Nazar </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">46600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">46600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">89</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Mokhtar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">80000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">80000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawzjan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Aq Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">119675.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">119675.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">91</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Barakatullah 1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">19000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">19000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">92</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Assadullah 1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Sarwar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">56750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">56750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">93</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noorul Haq </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Saleh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">247350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">247350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">94</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Barakatullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Aslam</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">213800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">213800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">95</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">ASsadullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Sarwar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">315800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">315800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">96</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noorul Haq 1</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">20350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">20350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">97</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noorul Haq 2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">29775.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">29775.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">98</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noorul Haq 3</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">263700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">263700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">99</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noorul Haq 4</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">11900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">11900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">100</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faryab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Barakatullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">94425.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">94425.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">101</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badghis</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Murtaza</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Karim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">195360.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">195360.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">102</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Badghis</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Zarif</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Ab. Baqi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">268740.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">268740.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">103</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mirajan </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ahmad Jan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">796300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">796300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">104</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Ajan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gul Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">105450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">105450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">105</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Yahya</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Ibrahim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">146100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">146100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">106</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shokrullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Samad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">370350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">370350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">107</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Dawood Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Azim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">45850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">45850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">108</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Asadullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor Aziz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">303750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">303750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">109</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Timor Sha</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hafizullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">200600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">200600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">110</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Naseer Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baryalai</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">235400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">235400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">111</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nooruldin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Sakhi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">270450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">270450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">112</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Younas</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Hazrat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">27300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">27300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">113</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Muhsen</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Will be updated</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">195850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">195850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">114</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hamid</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Miruldin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">105350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">99850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5500.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">115</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Zahoor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Saboor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">215650.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">215650.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">116</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kabul Province</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baheer</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zalmai</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">612900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">612900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">117</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mostafa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Salman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">137920.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">137920.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">118</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Ebrahim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Abobakr</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">146580.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">146580.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">119</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ebrahim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Fazlulhaq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">431335.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">431335.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">120</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ab. Razeq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ab. Wahed</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">252075.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">252075.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">121</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zia Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">256410.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">256410.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">122</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ahmad Nadim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hekmatullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">88290.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">88290.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">123</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ab. Wahab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gh. Haydar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">364980.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">364980.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">124</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Baqer</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Qasem</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90930.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90930.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">125</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wahidullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Habibullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">176310.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">176310.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">126</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hirat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Masoom</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">83160.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">83160.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">127</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Farah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Fazel</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ab. Qudos</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">131550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">131550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">128</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Farah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mahmood Shah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Ab. Baqi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">56760.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">56760.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">129</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hilmand</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gul Said</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">312183.36</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">311991.36</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">192.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">130</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hilmand</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khan Mohamad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">325596.02</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">325596.02</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">131</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hilmand</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hanifullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hanif</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">137563.50</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">137563.50</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">132</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kandahar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Rashid</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">46841.04</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">46841.04</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">133</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kandahar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zia ul Haq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">145039.43</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">145039.43</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">134</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kandahar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Qadeem</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">120817.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">120817.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">135</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kandahar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faridullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">9018.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">9018.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">136</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kandahar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Atta Muhammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">384183.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">384183.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">137</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kandahar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faridullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">212890.52</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">212890.52</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">138</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ab. Habib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Aziz Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1193755.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1193755.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">139</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Sadeq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Usman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">183351.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">183351.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">140</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nasar Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Payda Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">479104.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">479104.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">141</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Sadeq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Usman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">294286.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">294286.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">142</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Eid Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">541508.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">541508.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">143</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ab. Zaher</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Nader</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">460839.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">460839.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">144</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ab. Zaher</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Nader</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">386604.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">386604.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">145</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghor</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sultan Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Daneshyar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">61710.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">61710.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">146</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bamyan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Frogullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gholam Rasul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">162000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">162000.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">147</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bamyan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hussain Bakhsh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Dawood</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">129900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">129900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">148</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bamyan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hadi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khadim Ali</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">292700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">292700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">149</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bamyan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nasim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haidar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">685250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">685250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">150</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bamyan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Afzal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hussain</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">510900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">510900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">151</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bamyan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mir Alam</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sadullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">241500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">241500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">152</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bamyan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wasiq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Ashraf</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">283500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">283500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">153</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bamyan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Ishaq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Azim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">492250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">492250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">154</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Toryalai </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hakim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">383500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">383500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">155</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Dor Mohammad </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gul Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">213500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">213500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">156</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Qodus </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Ghafour</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">506550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">506550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">157</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Usman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Qaisar Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">512125.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">512125.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">158</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Dor Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gul Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1039525.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1039525.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">159</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Dor Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">.</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">269975.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">66440.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">203535.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">160</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Dor Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">.</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">468350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">468350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">161</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Dor Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">.</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">162</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktika</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Dor Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">.</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">220175.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">220175.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">163</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kapisa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Habib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohamad Qasim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">452450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">452450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">164</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kapisa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Rahmatullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Najmuldin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">115275.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">115275.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">165</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kapisa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hasem</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">202250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">202250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">166</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kapisa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Karim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Qader</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">143100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">143100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">167</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kapisa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khalid</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hadi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">225950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">225950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">168</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Kapisa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mahfuz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">M. Ebrahim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">107750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">107750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">169</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sar i Pul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayeed Mujtaba Sadat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">953325.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">874700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">78625.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">170</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sar i Pul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayeed Burhan Yaqobi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">135850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">135850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">171</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sar i Pul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shafiullah Hamdard</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">694875.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">694875.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">172</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sar i Pul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shamsuddin Rahimi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">281550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">281550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">173</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sar i Pul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hakim Royesh</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Juma Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">349450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">349450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">174</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gul Mohammad </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Moin Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">100950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">100950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">175</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sainullah </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Amir Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">48350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">48350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">176</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Wali</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Rahmatullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">90150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">177</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ajmal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Azam</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">118950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">118950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">178</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Shakir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">M.Dawood</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">85100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">85100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">179</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shir Jan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mir Ghous Din</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">119900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">119900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">180</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Satar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Emam Jan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">106450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">106450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">181</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abaseen</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Taj Ali</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">107250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">107250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">182</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jamal Din</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Jawar Din</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">10500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">183</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor Hassan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Umar Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">41000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">41000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">184</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khost</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bakht Amir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Basir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">50950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">185</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Panjshir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor abdullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"> Noor Hazar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">139850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">139850.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">186</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Panjshir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sefatullah Sultany (PC)</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">To be Entered</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">148100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">148100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">187</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Panjshir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Shakir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"> Mohammad Sabir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">31100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">31100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">188</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Panjshir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hakim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hashim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">189</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Panjshir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hakim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hashim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">184800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">182800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2000.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">190</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Panjshir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sefatullah Sultany (PC)</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">To be Entered</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">62500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">62500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">191</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Panjshir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor abdullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"> Noor Hazar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">58900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">58900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">192</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Panjshir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sefatullah Sultany (PC)</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">To be Entered</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">54200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">54200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">193</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Daikundi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Eisa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">M. Hussain</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">208100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">206590.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1510.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">194</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Daikundi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khair Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Nabi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">646800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">644600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2200.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">195</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Daikundi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hussain</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Musa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">118550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">118431.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">119.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">196</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Daikundi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Rasool</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">188400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">188211.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">189.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">197</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Daikundi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Qurban</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Anwar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">226500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">226500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">198</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Daikundi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nawroz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Nabi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">711900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">711188.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">712.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">199</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Daikundi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hussain</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Musa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">330650.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">330650.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">200</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Lalameer</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Aka Mir</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">188125.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">188125.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">201</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Najeebullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gul Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">129500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">129500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">202</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Rajab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">84500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">84500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">203</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed kazim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Ashraf</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">233300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">233300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">204</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Khaliq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Wahab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">200600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">200600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">205</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Manan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Juma Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">345000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">345000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">206</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Baryalai</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Gul Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">157875.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">157875.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">207</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zabeehullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ketab Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">13450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">13450.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">208</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wais Sidiqi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Habib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">66375.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">66375.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">209</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nazeer Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Yar Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">151875.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">151875.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">210</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Basheer Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Wali</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">125000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">125000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">211</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Fareedullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Yaqub</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">174825.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">174825.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">212</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Tajuddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Siddiq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">363475.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">363475.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">213</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Parwan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shereen Aga</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shah Agha</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">163250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">163250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">214</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhibullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">812550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">812550.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">215</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hussain Jan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">187325.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">187325.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">216</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Fazal Haq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Musbahuden</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">768575.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">768575.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">217</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shah Hussain</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Khurram Dil</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">891175.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">891175.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">218</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Keramatullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zakrullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">375675.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">375675.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">219</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mujib ul Rahman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Satar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">418600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">418600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">220</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mujib ul Rahman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">24200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">24200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">221</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Fazal Haq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">150150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">150150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">222</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Wardak</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mujeeb Rahman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">37400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">37400.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">223</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Logar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Latif</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Habib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">609200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">609200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">224</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Logar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Amanullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Esmatullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">799275.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">799275.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">225</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Logar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Najiullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Faroq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">352250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">352250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">226</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Logar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Jawid</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Qasim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">231800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">231800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">227</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Logar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Moh,Ajan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul salam</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">402175.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">402175.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">228</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Logar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Eamal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Faiz Talab</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">428150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">428150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">229</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Logar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zabihullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Marof</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">186250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">186250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">230</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Logar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Wakel</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">199100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">199100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">231</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Zaki</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Essa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1833225.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">1833225.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">232</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Khalid</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">275900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">275900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">233</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhammad Zaki</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhammad Esa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">508125.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">508125.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">234</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhammad Zaki</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhammad Esa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">88375.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">88375.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">235</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhammad Zaki</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhammad Esa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">191725.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">191725.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">236</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhammad Zaki</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Muhammad Esa</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">65750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">65750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">237</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Peer Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Noor Mohammad </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">658775.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">658775.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">238</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Jami</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hasham</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">615925.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">615925.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">239</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Hussain</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Ali</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">789500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">789500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">240</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdullah </td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ali Shah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">456250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">456250.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">241</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bakhtullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">170800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">170800.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">242</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghazni</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Hakim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell"></td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">122625.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">122625.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">243</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shir Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Niaz Mohammad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">379900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">379900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">244</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nasir Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Jallat Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">91750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">91750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">245</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nasir Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Jalat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">25000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">25000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">246</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nasir Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Jalat</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">45050.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">45050.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">247</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Sayed Bahram</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">81700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">81700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">248</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ziaullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Hakim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">846000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">846000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">249</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Jalal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Haji Mahmood</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">729300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">722000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">7300.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">250</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Zabit</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Adam Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">330700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">330700.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">251</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Habibullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Niazullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">572000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">572000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">252</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Bahram Baheer</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Samar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">644100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">644100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">253</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nawaz Sharif</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shahnawaz</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">210600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">210600.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">254</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nezamuddin</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohammad Rahim</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">419200.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">364000.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">55200.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">255</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Paktia</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Wahid</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Nabi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">294350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">294350.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">256</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ahmad Khalid</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Said Arif</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">115211.25</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">115211.25</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">257</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Suhaib</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Fazal Wali Nagar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">2950.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">258</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Tuaha</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Raziq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">5900.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">259</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abad urahman Tayar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Lal Meer</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">220135.63</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">220135.63</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">260</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Tasal Hamidi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shah Mahmood</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">114383.75</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">114383.75</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">261</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohd Ajamal</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohd Naeem</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">273075.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">273075.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">262</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohd Asif Sapand</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Mohd Wali</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">116300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">116300.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">263</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Javed Ahmad</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Sakhi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">117750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">117750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">264</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Nangarhar</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Shafiqullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Malik</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">232925.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">232925.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">265</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Laghman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Janat Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Janat Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">169750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">169750.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">266</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Laghman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Janat Khan2</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Janat Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">76100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">76100.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">267</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Laghman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Subat Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Sakhi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">315470.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">315470.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">268</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Laghman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Hijratullah</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Abdul Raziq</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">234500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">234500.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">269</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Laghman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Subat khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Ghulam Sakhi</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">38150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">38150.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">270</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Laghman</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Janat Khan</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">Janat Gul</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">100440.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">100440.00</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCell">0.00</td>
+	</tr>
+	<tr>
+		<td class="tableCellGeneral" colspan="4" style="text-align:center;vertical-align:middle;">Total</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">70121420.95</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">66528560.25</td>
+		<td style="text-align:center;vertical-align:middle;" class="tableCellGeneral">3592860.7</td>
+	</tr>
+</table>
+</span>
